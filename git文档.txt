@@ -1,24 +1,24 @@
-git¿Í»§¶Ë
-½Ó¹Ü¹¤×÷Ä¿Â¼
-git init ³õÊ¼»¯Ò»¸ögitµÄ¹¤×÷Ä¿Â¼
-git status ¼à¿ØgitÄ¿Â¼µÄ×´Ì¬
-git add ÎÄ¼şÃû. ĞèÒª°Ñ¸Ä±ä¹ıµÄÎÄ¼ş·Åµ½Ä¿Â¼ÀïÃæ
-git commit -m "×¢ÊÍ" ĞèÒª½«Ãûµ¥ÀïÃæµÄÄÚÈİ·Åµ½²Ö¿âÀïÃæ
+gitå®¢æˆ·ç«¯
+æ¥ç®¡å·¥ä½œç›®å½•1
+git init åˆå§‹åŒ–ä¸€ä¸ªgitçš„å·¥ä½œç›®å½•
+git status ç›‘æ§gitç›®å½•çš„çŠ¶æ€
+git add æ–‡ä»¶å. éœ€è¦æŠŠæ”¹å˜è¿‡çš„æ–‡ä»¶æ”¾åˆ°ç›®å½•é‡Œé¢
+git commit -m "æ³¨é‡Š" éœ€è¦å°†åå•é‡Œé¢çš„å†…å®¹æ”¾åˆ°ä»“åº“é‡Œé¢
 
-git log ÁĞ³ö°æ±¾
-»Øµ½ÉÏÒ»¸ö°æ±¾  git reset --hard HEA^
-»Øµ½Ä³Ò»¸ö°æ±¾  git reset --head °æ±¾ºÅ
+git log åˆ—å‡ºç‰ˆæœ¬
+å›åˆ°ä¸Šä¸€ä¸ªç‰ˆæœ¬  git reset --hard HEA^
+å›åˆ°æŸä¸€ä¸ªç‰ˆæœ¬  git reset --head ç‰ˆæœ¬å·
 
-git branch "·ÖÖ§Ãû" ĞÂ½¨Ò»¸ö·ÖÖ§Ãû
-git checkout ·ÖÖ§Ãû Ìø×ªµ½ÁíÒ»¸ö·ÖÖ§
-Ä¬ÈÏµÄÖ÷·ÖÖ§ master
-git branch -b xxx  ´´½¨²¢Ñ¡Ôñ
-git merge xxx ºÏ²¢·ÖÖ§
-git branch -d xxx  É¾³ı·ÖÖ§
+git branch "åˆ†æ”¯å" æ–°å»ºä¸€ä¸ªåˆ†æ”¯å
+git checkout åˆ†æ”¯å è·³è½¬åˆ°å¦ä¸€ä¸ªåˆ†æ”¯
+é»˜è®¤çš„ä¸»åˆ†æ”¯ master
+git branch -b xxx  åˆ›å»ºå¹¶é€‰æ‹©
+git merge xxx åˆå¹¶åˆ†æ”¯
+git branch -d xxx  åˆ é™¤åˆ†æ”¯
 
-git clone µØÖ·Á´½Ó  ¿ËÂ¡
+git clone åœ°å€é“¾æ¥  å…‹éš†
 
-ÉÏ´«²½Öè
+ä¸Šä¼ æ­¥éª¤
 git init
 git add README.md
 git commit -m "first commit"
@@ -26,31 +26,31 @@ git remote add origin https://github.com/617427066/uek.git
 git push -u origin master
 
 
-Ìá½»×÷Òµ²½Öè
+æäº¤ä½œä¸šæ­¥éª¤
 
-1. ÔÚ×Ô¼ºµÄgithub ÖĞ½øÈëÀÏÊ¦µÄ×÷Òµ²Ö¿â
-2. µã»÷fork ¿ËÂ¡ÎÄ¼ş¼Ğ
-3.ÎÄ¼ş¼Ğ·Å×÷Òµ
-4. cd ÎÄ¼ş¼Ğ
+1. åœ¨è‡ªå·±çš„github ä¸­è¿›å…¥è€å¸ˆçš„ä½œä¸šä»“åº“
+2. ç‚¹å‡»fork å…‹éš†æ–‡ä»¶å¤¹
+3.æ–‡ä»¶å¤¹æ”¾ä½œä¸š
+4. cd æ–‡ä»¶å¤¹
 5.git add .
-6. git commit -m "×¢ÊÍ"
+6. git commit -m "æ³¨é‡Š"
 7.git push -u origin master
 
-É¾³ıÔ¶³ÌÎÄ¼ş»òÎÄ¼ş¼Ğ
- 1.¿ËÂ¡Ô¶³Ì²Ö¿âµ½±¾µØ¿â¡£
+åˆ é™¤è¿œç¨‹æ–‡ä»¶æˆ–æ–‡ä»¶å¤¹
+ 1.å…‹éš†è¿œç¨‹ä»“åº“åˆ°æœ¬åœ°åº“ã€‚
 git clone git@github.com:xxx/xxx.git
 
-2.¶ÔĞèÒªÉ¾³ıµÄÎÄ¼ş¡¢ÎÄ¼ş¼Ğ½øĞĞÈçÏÂ²Ù×÷:
+2.å¯¹éœ€è¦åˆ é™¤çš„æ–‡ä»¶ã€æ–‡ä»¶å¤¹è¿›è¡Œå¦‚ä¸‹æ“ä½œ:
 
-git rm test.txt (É¾³ıÎÄ¼ş)
+git rm test.txt (åˆ é™¤æ–‡ä»¶)
 
-git rm -r test (É¾³ıÎÄ¼ş¼Ğ)
+git rm -r test (åˆ é™¤æ–‡ä»¶å¤¹)
 
-3.Ìá½»ĞŞ¸Ä
+3.æäº¤ä¿®æ”¹
 
 git commit -m "Delete some files."
 
-4.½«ĞŞ¸ÄÌá½»µ½Ô¶³Ì²Ö¿âµÄxxx·ÖÖ§:
+4.å°†ä¿®æ”¹æäº¤åˆ°è¿œç¨‹ä»“åº“çš„xxxåˆ†æ”¯:
 
 git push origin xxx
 
